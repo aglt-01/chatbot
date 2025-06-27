@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Чат-бот</title>
+  <link rel="stylesheet" href="chat_bot_styles.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">Чат-бот</div>
+    
+    <div id="chat" class="chat-messages"></div>
+    
+    <div class="chat-input">
+      <div class="chat-input-wrapper">
+        <input type="text" id="messageInput" placeholder="Введите сообщение" />
+        <button id="sendBtn" disabled>
+          <img id="sendIcon" src="img/paper-plane-grey.svg" alt="send" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="chat_bot_logic.js"></script>
+</body>
+</html>
